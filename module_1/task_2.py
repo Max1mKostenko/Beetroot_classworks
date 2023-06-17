@@ -53,3 +53,7 @@ Task 5
 Task 6
 """
 password = input("Please enter your password: ")
+if password.isascii() and len(password) > 8:
+    print("Пароль відповідає вимогам")
+else:
+    print("Пароль не відповідає вимогам")
