@@ -1,5 +1,5 @@
 """
-First Task
+Ex 1
 """
 
 # adress = "@kobzar.com"
@@ -9,7 +9,7 @@ First Task
 # print(f"Second gmail: {name[0]}.{surname}{adress}")
 # print(f"Third gmail: {name[:3]}{surname[:3]}{adress}")
 """
-Second Task
+Ex 2
 """
 age_person = 13
 if age_person >= 18:
@@ -20,12 +20,12 @@ else:
     print("Беріть що завгодно, окрім алкоголю та енергетиків!")
 
 """
-Third Task
+Ex 3
 """
 transaction_id_crack = ";yu7i9om0&iymn%"
 print(transaction_id_crack[1:-1])
 
 """
-Fourth Task
+Ex 4
 """
 print(transaction_id_crack[1:-1].replace("&", ""))

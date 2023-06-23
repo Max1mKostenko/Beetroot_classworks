@@ -1,6 +1,7 @@
 """
-Task 1
+Ex 1
 """
+
 # adress = "@kobzar.com"
 # name = input("Please enter your name: ")
 # surname = input("Please enter your surname: ")
@@ -10,7 +11,7 @@ Task 1
 import random
 
 """
-Task 2
+Ex 2
 """
 # i = 0
 # while i < 5:
@@ -19,7 +20,7 @@ Task 2
 # print("Бажаю вам гарного дня!")
 
 """
-Task 3
+Ex 3
 """
 # while True:
 #     x = input("Чи потрібно вам передзвонити? уведіть y/n: ")
@@ -28,7 +29,7 @@ Task 3
 #     break
 
 """
-Task 4
+Ex 4
 """
 # count_of_customers = int(input("Уведіть кількість покупці вашого онлайн магазину: "))
 # for i in range(1, count_of_customers):
@@ -40,7 +41,7 @@ Task 4
 #         print(f"Вітаю, ви {i}-ий покупець і ви вийграли ручку!")
 
 """
-Task 5
+Ex 5
 """
 # income = int(input("Введіть ваш дохід в гривнях: "))
 # age = int(input("Введіть ваш вік: "))
@@ -50,7 +51,7 @@ Task 5
 # else:
 #     print("Ви не відповідаєте нашим умовам, тому ви не можете взяти кредит!")
 """
-Task 6
+Ex 6
 """
 password = input("Please enter your password: ")
 if password.isascii() and len(password) > 8:
