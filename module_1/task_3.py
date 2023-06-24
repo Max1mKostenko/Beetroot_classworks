@@ -1,23 +1,29 @@
 """
 Ex 1
 """
-# while True:
-#     num_1 = int(input("Please enter the first number: "))
-#     num_2 = int(input("Please enter the second number: "))
-#     operator = input("Please enter the operator(+, -, *, /) to solve 2 numbers: ")
-#     if operator == "+":
-#         print(f"Your answer is: {num_1 + num_2}")
-#     elif operator == "-":
-#         print(f"Your answer is: {num_1 - num_2}")
-#     elif operator == "*":
-#         print(f"Your answer is: {num_1 * num_2}")
-#     elif operator == "/":
-#         print(f"Your answer is: {num_1 / num_2}")
-#     else:
-#         print(f"Please change your operator to (+, -, *, /)")
-#     ask = input("Enter 'q' to exit, or any key to continue: ")
-#     if ask == "q":
-#         break
+while True:
+    num_1 = int(input("Please enter the first number: "))
+    num_2 = int(input("Please enter the second number: "))
+    operator = input("Please enter the operator(+, -, *, /, **, //, %) to solve 2 numbers: ")
+    if operator == "+":
+        print(f"Your answer is: {num_1 + num_2}")
+    elif operator == "-":
+        print(f"Your answer is: {num_1 - num_2}")
+    elif operator == "*":
+        print(f"Your answer is: {num_1 * num_2}")
+    elif operator == "/":
+        print(f"Your answer is: {num_1 / num_2}")
+    elif operator == "**":
+        print(f"Your answer is: {num_1 ** num_2}")
+    elif operator == "//":
+        print(f"Your answer is: {num_1 // num_2}")
+    elif operator == "%":
+        print(f"Your answer is: {num_1 % num_2}")
+    else:
+        print(f"Please change your operator to (+, -, *, /, **, //, %)")
+    ask = input("Enter 'q' to exit, or any key to continue: ")
+    if ask == "q" or "Q":
+        break
 
 """
 Ex 2
