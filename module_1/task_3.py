@@ -1,29 +1,29 @@
 """
 Ex 1
 """
-while True:
-    num_1 = int(input("Please enter the first number: "))
-    num_2 = int(input("Please enter the second number: "))
-    operator = input("Please enter the operator(+, -, *, /, **, //, %) to solve 2 numbers: ")
-    if operator == "+":
-        print(f"Your answer is: {num_1 + num_2}")
-    elif operator == "-":
-        print(f"Your answer is: {num_1 - num_2}")
-    elif operator == "*":
-        print(f"Your answer is: {num_1 * num_2}")
-    elif operator == "/":
-        print(f"Your answer is: {num_1 / num_2}")
-    elif operator == "**":
-        print(f"Your answer is: {num_1 ** num_2}")
-    elif operator == "//":
-        print(f"Your answer is: {num_1 // num_2}")
-    elif operator == "%":
-        print(f"Your answer is: {num_1 % num_2}")
-    else:
-        print(f"Please change your operator to (+, -, *, /, **, //, %)")
-    ask = input("Enter 'q' to exit, or any key to continue: ")
-    if ask == "q" or "Q":
-        break
+# while True:
+#     num_1 = int(input("Please enter the first number: "))
+#     num_2 = int(input("Please enter the second number: "))
+#     operator = input("Please enter the operator(+, -, *, /, **, //, %) to solve 2 numbers: ")
+#     if operator == "+":
+#         print(f"Your answer is: {num_1 + num_2}")
+#     elif operator == "-":
+#         print(f"Your answer is: {num_1 - num_2}")
+#     elif operator == "*":
+#         print(f"Your answer is: {num_1 * num_2}")
+#     elif operator == "/":
+#         print(f"Your answer is: {num_1 / num_2}")
+#     elif operator == "**":
+#         print(f"Your answer is: {num_1 ** num_2}")
+#     elif operator == "//":
+#         print(f"Your answer is: {num_1 // num_2}")
+#     elif operator == "%":
+#         print(f"Your answer is: {num_1 % num_2}")
+#     else:
+#         print(f"Please change your operator to (+, -, *, /, **, //, %)")
+#     ask = input("Enter 'q' to exit, or any key to continue: ")
+#     if ask == "q" or "Q":
+#         break
 
 """
 Ex 2
@@ -48,4 +48,4 @@ print(f"Fifth gmail: {(big_info[0][-1]).capitalize()}{(big_info[1][-1]).capitali
 """
 Ex 4
 """
-#  магазин я делаю в 4 таске, а может уже сделал xD )
+#  магазин сделал в другом файле xD )
