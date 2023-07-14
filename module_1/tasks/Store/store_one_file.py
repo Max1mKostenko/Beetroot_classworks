@@ -8,9 +8,7 @@ def main(input_action):
     try:
         input_action = int(input_action)
         assert 0 < input_action < 6
-    except ValueError:
-        return f"\nYour input: '{input_action}', isn't correct!. You should enter only numbers in the range 1 to 5."
-    except AssertionError:
+    except (ValueError, AssertionError):
         return f"\nYour input: '{input_action}', isn't correct!. You should enter only numbers in the range 1 to 5."
     if input_action == 1:
         return list_products(products)
@@ -30,8 +28,6 @@ def main(input_action):
     elif input_action == 5:
         return del_product(int(input("\nPlease enter 1 - (Apple) | 2 - (Banana) | 3 - (Pineapple) | 4 - (Potato) "
                                      "to delete one of these products: ")))
-    else:
-        return f"\nYour input: '{input_action}', isn't correct!. You should choose only 1 | 2 | 3 | 4 | 5."
 
 
 def list_products(list_of_products):
@@ -102,7 +98,7 @@ def del_product(delete_product):
 
 
 print(main(input("Please enter 1 - (to see the product list)"
-                     "\n\t\t   / 2 - (to add the new product)"
-                     "\n\t\t   / 3 - (to change someone product)"
-                     "\n\t\t   / 4 - (to add the new criterion for all products)"
-                     "\n\t\t   / 5 - (to del someone product): ")))
+                 "\n\t\t   / 2 - (to add the new product)"
+                 "\n\t\t   / 3 - (to change someone product)"
+                 "\n\t\t   / 4 - (to add the new criterion for all products)"
+                 "\n\t\t   / 5 - (to del someone product): ")))
