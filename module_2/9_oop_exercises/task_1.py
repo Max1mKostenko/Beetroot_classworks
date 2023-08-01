@@ -1,7 +1,7 @@
-class Bank_acount_system:
-    def __init__(self, number, balance):
+class Bank_acсount_system:
+    def __init__(self, number, __balance):
         self.number = number
-        self.balance = balance
+        self.balance = __balance
 
     def depositing(self, deposit):
         self.balance += deposit
@@ -15,7 +15,7 @@ class Bank_acount_system:
         return self.balance
 
 
-bank = Bank_acount_system(123, 1000)
+bank = Bank_acсount_system(123, 1000)
 print(bank.depositing(20))
 print(bank.withdrawing(30))
 print(bank.get_balance())

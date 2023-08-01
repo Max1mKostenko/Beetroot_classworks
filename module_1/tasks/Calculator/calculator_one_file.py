@@ -41,7 +41,6 @@ def calculator(num_1, num_2, operator):
                f"(+, -, *, /, **, //, %)"
 
 
-# print(calculator(input("Please enter the first number: "),
-#                  input("Please enter the second number: "),
-#                  input("Please enter an operator(+, -, *, /, **, //, %) to solve 2 numbers: ")))
-
+print(calculator(input("Please enter the first number: "),
+                 input("Please enter the second number: "),
+                 input("Please enter an operator(+, -, *, /, **, //, %) to solve 2 numbers: ")))
