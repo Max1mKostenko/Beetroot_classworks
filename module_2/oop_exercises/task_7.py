@@ -30,10 +30,9 @@ class Flight:
         result = time2 - time1
         hours, minutes, sec = str(result).split(":")
         return f"The difference between {self._departure_time} and {self._arrival_time} is " \
-               f"{int(hours)} hours and {int(minutes)} minutes.\n"
+               f"{int(hours)} hours and {int(minutes)} minutes."
 
 
 my_flight = Flight("193F19A", "Kiev", "Los Angeles", "05:00", "14:00", 12)
 print(my_flight.calculate_flight_duration())
 print(my_flight.display_info())
-
