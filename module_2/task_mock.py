@@ -9,8 +9,8 @@ class TestMock(unittest.TestCase):
 
     def test_average_rate(self):
         calculate_flight_duration = Mock()
-        calculate_flight_duration.return_value = "The difference between 05:00 and 14:00 is" \
-                                                        " 9 hours and 0 minutes."
+        calculate_flight_duration.return_value = "The difference between 05:00 and 14:00 is " \
+                                                 "9 hours and 0 minutes."
         class_variable = self.my_flight.calculate_flight_duration()
         self.assertEqual(calculate_flight_duration.return_value, class_variable)
 
